@@ -31,7 +31,7 @@ export const InputTask: React.FC<InputTaskProps> = ({
 
     return (
         <div className={styles.inputTask}>
-            <label className={styles.inputTaskLabel}>
+            <div className={styles.inputTaskLabel}>
                 <input 
                     type="checkbox"
                     disabled={isEditMode}
@@ -64,7 +64,7 @@ export const InputTask: React.FC<InputTaskProps> = ({
                     />
                 ) : (
                 <h3 className={styles.inputTaskTitle}>{title}</h3>)}
-            </label>
+            </div>
             { isEditMode ? (
                 <button 
                     aria-label="Save"

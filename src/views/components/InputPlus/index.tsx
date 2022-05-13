@@ -28,7 +28,7 @@ export const InputPlus: React.FC<InputPlusProps> = ({
                         addTask();
                     }
                 }}
-                placeholder = "Type here..."
+                placeholder = "Пиши тут..."
             />
             <button
                 onClick={addTask}
